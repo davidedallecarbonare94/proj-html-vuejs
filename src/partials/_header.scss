@@ -1,0 +1,28 @@
+header{
+    background-color: $greybar;
+}
+
+.grey_bar,
+.contacts,
+.hours{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.grey_bar{
+    width: 80%;
+    margin: 0 auto;
+    color: $greybar_text;
+    padding: 20px;
+}
+.hours{
+    i{
+        padding-right: 6px;
+    }
+}
+.contacts{
+    p i{
+        padding-left: 40px;
+    }
+}

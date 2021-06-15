@@ -1,1 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0 auto;
+}
+
+header {
+  background-color: #21333E;
+}
+
+.grey_bar,
+.contacts,
+.hours {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grey_bar {
+  width: 80%;
+  margin: 0 auto;
+  color: #C0C3D0;
+  padding: 20px;
+}
+
+.hours i {
+  padding-right: 6px;
+}
+
+.contacts p i {
+  padding-left: 40px;
+}
