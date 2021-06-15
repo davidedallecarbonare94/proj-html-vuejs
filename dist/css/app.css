@@ -103,3 +103,80 @@ body {
   color: white;
   border: 1px solid #058283;
 }
+
+.white_section {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 6rem;
+}
+.white_section .left_side {
+  width: 70%;
+  padding-right: 3rem;
+}
+.white_section .left_side h4 {
+  color: #058283;
+  padding-bottom: 1rem;
+}
+.white_section .left_side h2 {
+  font-size: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+.white_section .left_side h2 .green_text {
+  background-color: #DAECED;
+  color: #058283;
+  padding: 5px;
+}
+.white_section .left_side p {
+  padding-bottom: 1.5rem;
+  color: grey;
+}
+.white_section .left_side .bordered_p {
+  border-left: 5px solid #DAECED;
+  padding: 20px;
+}
+.white_section .left_side p:last-of-type {
+  padding-top: 1.5rem;
+}
+.white_section .left_side ul {
+  padding-left: 1rem;
+}
+.white_section .left_side li {
+  color: grey;
+  line-height: 1.5rem;
+}
+.white_section .right_side {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.white_section .right_side h4 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+.white_section .right_side .card {
+  display: flex;
+  flex-direction: row;
+  padding: 0.8rem 0rem;
+}
+.white_section .right_side .card .media_text {
+  padding-left: 15px;
+}
+.white_section .right_side .card .media_text h4 {
+  font-size: 1.6rem;
+}
+.white_section .right_side .card .media_text .description {
+  font-size: 1.25rem;
+  color: grey;
+}
+.white_section .right_side .card img {
+  width: 120px;
+  background-color: #DAECED;
+  padding: 5px;
+  border-radius: 5px;
+}
+.white_section .right_side .certifications img {
+  width: 90px;
+  margin-right: 20px;
+  box-shadow: 10px 10px 13px -10px rgba(92, 92, 92, 0.76);
+}

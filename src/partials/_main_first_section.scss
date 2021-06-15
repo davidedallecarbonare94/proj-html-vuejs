@@ -1,0 +1,79 @@
+.white_section{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 6rem;
+    .left_side{
+        width: 70%;
+        padding-right: 3rem;
+        h4{
+            color: #058283;
+            padding-bottom: 1rem;
+        }
+        h2{
+            font-size: 2.5rem;
+            padding-bottom: 1.5rem;
+        }
+        h2 .green_text{
+            background-color: $bcg_light_grey;
+            color: $green_button_bcgc;
+            padding: 5px;
+        }
+        p {
+            padding-bottom: 1.5rem;
+            color: grey;
+        }
+        .bordered_p{
+            border-left: 5px solid $bcg_light_grey;
+            padding: 20px;
+        }
+        p:last-of-type{
+            padding-top: 1.5rem;
+        }
+        ul{
+            padding-left: 1rem;
+        }
+        li{
+            color: grey;
+            line-height: 1.5rem;
+        }
+
+    }
+    .right_side{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        h4{
+            font-size: 1.5rem;
+            padding-bottom: 1rem;
+        }
+
+        .card{
+            display: flex;
+            flex-direction: row;
+            padding: 0.8rem 0rem;
+            .media_text{
+                padding-left: 15px;
+                h4{
+                    font-size: 1.6rem;
+                }
+                .description{
+                    font-size: 1.25rem;
+                    color: grey;
+                }
+            }
+        }
+        .card img{
+            width: 120px;
+            background-color: #DAECED;
+            padding: 5px;
+            border-radius: 5px;
+
+        }
+        .certifications img{
+            width: 90px;
+            margin-right: 20px;
+            box-shadow: 10px 10px 13px -10px rgba(92,92,92,0.76);
+        }
+    }
+}
