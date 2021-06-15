@@ -59,4 +59,38 @@
         padding: 0.75rem 1rem;
         color: white;
     }
+    
+}
+.jumbomain{
+    z-index: 1;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    width: 40%;
+    h4{
+        color: $green_button_bcgc;
+        font-size: 1rem;
+    }
+    h1{
+        color: white;
+        font-size: 4rem;
+    }
+    p{
+        color: white;
+        font-size: 1.5rem;
+        padding-bottom: 3rem;
+    }
+    .btn{
+        background-color: $green_button_bcgc;
+        border-radius: 3px;
+        padding: 0.75rem 1rem;
+        color: white;
+        margin-right: 1rem;
+    }
+    .btn_outline{
+        border-radius: 3px;
+        padding: 0.75rem 1rem;
+        color: white;
+        border: 1px solid $green_button_bcgc;
+    }
 }
