@@ -108,7 +108,7 @@ body {
   display: flex;
   width: 80%;
   margin: 0 auto;
-  padding-top: 6rem;
+  padding: 6rem 0rem;
 }
 .white_section .left_side {
   width: 70%;
@@ -179,4 +179,40 @@ body {
   width: 90px;
   margin-right: 20px;
   box-shadow: 10px 10px 13px -10px rgba(92, 92, 92, 0.76);
+}
+
+.main_services {
+  padding-top: 6rem;
+  background-color: black;
+  color: white;
+}
+.main_services .wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+.main_services h4 {
+  color: #058283;
+  padding-bottom: 1.5rem;
+}
+.main_services h2 {
+  font-size: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+.main_services h2 .bg_darkgreen {
+  background-color: #0E272D;
+}
+.main_services .wrapper_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_services .wrapper_2 p {
+  width: 80%;
+}
+.main_services .wrapper_2 .btn_outline {
+  border-radius: 5px;
+  padding: 0.75rem 1rem;
+  color: white;
+  border: 2px solid #058283;
 }

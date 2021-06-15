@@ -1,0 +1,35 @@
+.main_services{
+    padding-top: 6rem;
+    background-color: black;
+    color: white;
+    .wrapper{
+        width: 80%;
+        margin: 0 auto;
+    }
+    h4{
+        color: #058283;
+        padding-bottom: 1.5rem;
+    }
+    h2{
+        font-size: 2.5rem;
+        padding-bottom: 1.5rem;
+    }
+    h2 .bg_darkgreen{
+        background-color: #0E272D;
+    }
+    .wrapper_2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            width: 80%;
+        }
+        .btn_outline {
+            border-radius: 5px;
+        padding: 0.75rem 1rem;
+        color: white;
+        border: 2px solid $green_button_bcgc;
+        }
+    }
+}
