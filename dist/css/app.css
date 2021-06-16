@@ -7,6 +7,7 @@
 body {
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
+  max-width: 1440px;
 }
 
 .greybarcontainer {
@@ -37,61 +38,61 @@ body {
   padding-left: 40px;
 }
 
-.header_test {
+.jumbo_test {
   height: 798px;
 }
-.header_test .container_test {
+.jumbo_test .container_test {
   width: 75%;
   margin: 0 auto;
 }
-.header_test .container_test .navbar_test {
+.jumbo_test .container_test .navbar_test {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
 }
-.header_test .container_test .navbar_test .logo {
+.jumbo_test .container_test .navbar_test .logo {
   width: 180px;
 }
-.header_test .container_test .navbar_test a {
+.jumbo_test .container_test .navbar_test a {
   text-decoration: none;
   color: white;
   font-weight: 400;
   padding-right: 20px;
   text-transform: uppercase;
 }
-.header_test .container_test .navbar_test .btn {
+.jumbo_test .container_test .navbar_test .btn {
   background-color: #058283;
   border-radius: 3px;
   padding: 0.75rem 1rem;
   color: white;
 }
-.header_test .container_test .jumbomain_test {
+.jumbo_test .container_test .jumbomain_test {
   width: 55%;
   padding-top: 6rem;
 }
-.header_test .container_test .jumbomain_test h4 {
+.jumbo_test .container_test .jumbomain_test h4 {
   color: #058283;
   font-size: 1rem;
 }
-.header_test .container_test .jumbomain_test h1 {
+.jumbo_test .container_test .jumbomain_test h1 {
   color: white;
   font-size: 4rem;
 }
-.header_test .container_test .jumbomain_test p {
+.jumbo_test .container_test .jumbomain_test p {
   color: white;
   font-size: 1.5rem;
   padding-bottom: 3rem;
 }
-.header_test .container_test .jumbomain_test .btn {
+.jumbo_test .container_test .jumbomain_test .btn {
   background-color: #058283;
   border-radius: 3px;
   padding: 0.75rem 1rem;
   color: white;
   margin-right: 1rem;
 }
-.header_test .container_test .jumbomain_test .btn_outline {
+.jumbo_test .container_test .jumbomain_test .btn_outline {
   border-radius: 3px;
   padding: 0.75rem 1rem;
   color: white;
