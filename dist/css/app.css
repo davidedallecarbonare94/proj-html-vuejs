@@ -183,7 +183,7 @@ body {
 }
 
 .main_services {
-  padding-top: 6rem;
+  padding: 6rem 0rem;
   background-color: black;
   color: white;
 }
@@ -251,4 +251,27 @@ body {
 .main_services .cards .card .lower h3 {
   font-size: 1.75rem;
   padding-bottom: 1.25rem;
+}
+
+footer {
+  background-color: black;
+  height: 400px;
+}
+footer .background {
+  width: 80%;
+  margin: 0 auto;
+}
+footer .background .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .background .cards .card {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  background-color: #19191F;
+  border-radius: 10px;
+  width: calc(95%/4);
 }

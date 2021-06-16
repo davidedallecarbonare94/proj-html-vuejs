@@ -1,0 +1,22 @@
+footer{
+    background-color: black;
+    height: 400px;
+    .background{
+        width: 80%;
+        margin: 0 auto;
+        .cards{
+            display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+            .card{
+                color: white;
+                display: flex;
+            flex-direction: column;
+            padding: 3rem;
+            background-color: #19191F;
+            border-radius: 10px;
+            width: calc(95%/4);
+            }
+        }
+    }
+}
