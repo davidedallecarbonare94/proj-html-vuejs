@@ -1,22 +1,80 @@
-footer{
-    background-color: black;
-    height: 400px;
-    .background{
+footer {
+    padding-top: 6rem;
+    background-color: #111117;
+    
+
+    .background {
         width: 80%;
         margin: 0 auto;
-        .cards{
+        margin-bottom: 12rem;
+        .cards {
             display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-            .card{
-                color: white;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .card:first-child {
+                color: #C0C3D0;
+                background-color: #111117;
+                padding: 0rem;
                 display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .btn_outline{
+                    border-radius: 3px;
+                    padding: 0.75rem 1rem;
+                    color: white;
+                    border: 1px solid $green_button_bcgc;
+                    width: 55%;
+                }
+                p {
+                    line-height: 2rem;
+                }
+            }
+
+
+            img {
+                width: 160px;
+            }
+
+            
+        }
+
+        .card {
+            color: white;
+            display: flex;
             flex-direction: column;
-            padding: 3rem;
+            padding: 2.8rem;
             background-color: #19191F;
             border-radius: 10px;
             width: calc(95%/4);
+
+            h3 {
+                padding-bottom: 1rem;
+                font-size: 1.5rem;
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 1rem;
+                color: #C0C3D0;
+                line-height: 2.2rem;
+            }
+
+        }
+        
+    }
+    .credits{
+            width: 100%;
+            background-color: black;
+            color: #C0C3D0;
+            .credit{
+                padding: 3rem 0rem;
+                margin: 0 auto;
+                width: 80%;
+                display: flex;
+                justify-content: space-between;
             }
         }
-    }
 }
+

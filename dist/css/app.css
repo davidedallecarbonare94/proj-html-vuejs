@@ -184,7 +184,7 @@ body {
 
 .main_services {
   padding: 6rem 0rem;
-  background-color: black;
+  background-color: #111117;
   color: white;
 }
 .main_services .wrapper {
@@ -254,24 +254,68 @@ body {
 }
 
 footer {
-  background-color: black;
-  height: 400px;
+  padding-top: 6rem;
+  background-color: #111117;
 }
 footer .background {
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 12rem;
 }
 footer .background .cards {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-footer .background .cards .card {
+footer .background .cards .card:first-child {
+  color: #C0C3D0;
+  background-color: #111117;
+  padding: 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .background .cards .card:first-child .btn_outline {
+  border-radius: 3px;
+  padding: 0.75rem 1rem;
+  color: white;
+  border: 1px solid #058283;
+  width: 55%;
+}
+footer .background .cards .card:first-child p {
+  line-height: 2rem;
+}
+footer .background .cards img {
+  width: 160px;
+}
+footer .background .card {
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 3rem;
+  padding: 2.8rem;
   background-color: #19191F;
   border-radius: 10px;
   width: calc(95%/4);
+}
+footer .background .card h3 {
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+}
+footer .background .card a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #C0C3D0;
+  line-height: 2.2rem;
+}
+footer .credits {
+  width: 100%;
+  background-color: black;
+  color: #C0C3D0;
+}
+footer .credits .credit {
+  padding: 3rem 0rem;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
 }
