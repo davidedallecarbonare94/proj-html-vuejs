@@ -10,24 +10,22 @@
 var app = new Vue({
   el: "#root",
   data: {
-    /* icon: <i class="far fa-user"></i>, */
     counter: 0,
     about: "",
     transport: "",
     support: "",
+    link: "",
     navbar: [{
-      link: "Home"
+      name: "Home"
     }, {
-      link: "About"
+      name: "About"
     }, {
-      link: "Services"
+      name: "Services"
     }, {
-      link: "Process"
+      name: "Process"
     }, {
-      link: "Testimonial"
-    }
-    /* { link: this.icon }, */
-    ],
+      name: "Testimonial"
+    }],
     abouts: [{
       name: "The Company"
     }, {

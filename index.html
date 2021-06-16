@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./dist/css/app.css">
 </head>
 
@@ -46,36 +47,31 @@
                 </div>
                 <!-- /grey bar -->
                 <!-- jumbotron -->
-                <div class="jumbotrone">
-                    <img src="./dist/img/bg-9.jpg" class="background_img" alt="">
-                    <div class="navbar">
-                        <div class="logo">
-                            <img src="./dist/img/logonexgen.svg" alt="Nexgen">
+                <div class="header_test" style="background: url(./dist/img/bg-9.jpg); background-size: cover;">
+                    <div class="container_test">
+                        <div class="navbar_test">
+                            <div class="logo">
+                                <img src="./dist/img/logonexgen.svg" alt="Nexgen">
+                            </div>
+                            <div class="navbar_sites">
+                                <a v-for="link in navbar" href="">{{link.name}}</a>
+                                <a href=""><i class="far fa-user"></i></a>
+                                <span class="btn" href="">GET IN TOUCH</span>
+                            </div>
                         </div>
-                        <div class="sites">
-                            <a href="">HOME</a>
-                            <a href="">ABOUT</a>
-                            <a href="">SERVICES</a>
-                            <a href="">PROCESS</a>
-                            <a href="">TESTIMONIALS</a>
-                            <a href=""><i class="far fa-user"></i></a>
-                            <span class="btn" href="">GET IN TOUCH</span>
+                        <div class="jumbomain_test">
+                            <h4>LOGISTICS SERVICES</h4>
+                            <H1>CARGO TRANSPORT</H1>
+                            <p>Fractional or exclusive road cargo transportation to all regions, with small, medium and
+                                large vehicles</p>
+                            <span class="btn">GET IN TOUCH</span>
+                            <span class="btn_outline">READ MORE</span>
                         </div>
-                    </div>
-                    <div class="jumbomain">
-                        <h4>LOGISTICS SERVICES</h4>
-                        <H1>CARGO TRANSPORT</H1>
-                        <p>Fractional or exclusive road cargo transportation to all regions, with small, medium and
-                            large vehicles</p>
-                        <span class="btn">GET IN TOUCH</span>
-                        <span class="btn_outline">READ MORE</span>
                     </div>
                 </div>
                 <!-- /jumbotron -->
             </header>
-            <div class="header_test">
-                
-            </div>
+
             <!-- /header section -->
 
             <!-- main section -->
@@ -86,9 +82,7 @@
                         <h2>
                             <span class="green_text"><i class="far fa-gem"></i> Excellence</span> in Transport
                         </h2>
-                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae unde
-                            qui reprehenderit impedit eius. Fugit error dolorem qui dignissimos, pariatur quas placeat
-                            cum, magnam quos facere enim accusamus sit corrupti.</p>
+                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquid ipsa autem inventore, aliquam exercitationem..</p>
                         <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptatum
                             officia facilis culpa incidunt id quasi quidem veritatis quod amet?</p>
                         <p class="bordered_p"><i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel similique
@@ -149,7 +143,8 @@
                             <h2>Main <span class="bg_darkgreen"> Services </span></h2>
                             <div class="wrapper_2">
                                 <p>With all of this expertise and capability comes an unrivalled commitment to customer
-                                    service. We will work hard to understand your needs in order to develop a productive,
+                                    service. We will work hard to understand your needs in order to develop a
+                                    productive,
                                     long-term partnership.</p>
                                 <a class="btn_outline">SEE ALL</a>
                             </div>
@@ -157,32 +152,35 @@
                         <div class="cards">
                             <div class="card">
                                 <div class="upper">
-                                  <i class="fas fa-truck-loading"></i></i>
-                                  <i class="fas fa-arrow-right"></i>  
+                                    <i class="fas fa-truck-loading"></i></i>
+                                    <i class="fas fa-arrow-right"></i>
                                 </div>
                                 <div class="lower">
                                     <h3>Technology</h3>
-                                    <p>We are continually focused on developing technology solutions adapted to our client's needs.</p>
+                                    <p>We are continually focused on developing technology solutions adapted to our
+                                        client's needs.</p>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="upper">
                                     <i class="fas fa-temperature-low"></i>
-                                    <i class="fas fa-arrow-right"></i>  
+                                    <i class="fas fa-arrow-right"></i>
                                 </div>
                                 <div class="lower">
                                     <h3>Reefer Cargo</h3>
-                                    <p>Regular and frequent monitoring from the receipt of the loaded container to final destination.</p>
+                                    <p>Regular and frequent monitoring from the receipt of the loaded container to final
+                                        destination.</p>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="upper">
                                     <i class="fas fa-boxes"></i>
-                                    <i class="fas fa-arrow-right"></i>  
+                                    <i class="fas fa-arrow-right"></i>
                                 </div>
                                 <div class="lower">
                                     <h3>Dry Cargo</h3>
-                                    <p>We work with most types of dry cargo, from valuable cargo to the most dangerous requiring care.</p>
+                                    <p>We work with most types of dry cargo, from valuable cargo to the most dangerous
+                                        requiring care.</p>
                                 </div>
                             </div>
                         </div>
@@ -199,7 +197,7 @@
                             <img src="./dist/img/logonexgen.svg" alt="">
                             <p>A Functional HTML for Corporate & Business</p>
                             <div class="contact">
-                                
+
                                 <p class="number">
                                     <i class="fas fa-phone"></i>
                                     +1 (305) 1234-5678
@@ -215,24 +213,27 @@
                             </div>
                             <span class="btn_outline" href="">GET IN TOUCH</span>
                         </div>
-                        <div class="card" >
+                        <div class="card">
                             <h3>About</h3>
                             <a href="" v-for="about in abouts"><i class="fas fa-chevron-right"></i> {{about.name}}</a>
                         </div>
-                        <div class="card" >
+                        <div class="card">
                             <h3>Transport</h3>
-                            <a href="" v-for="transport in transports"><i class="fas fa-chevron-right"></i> {{transport.name}}</a>
+                            <a href="" v-for="transport in transports"><i class="fas fa-chevron-right"></i>
+                                {{transport.name}}</a>
                         </div>
-                        <div class="card" >
+                        <div class="card">
                             <h3>Support</h3>
-                            <a href="" v-for="support in supports"><i class="fas fa-chevron-right"></i> {{support.name}}</a>
+                            <a href="" v-for="support in supports"><i class="fas fa-chevron-right"></i>
+                                {{support.name}}</a>
                         </div>
                     </div>
                 </div>
                 <div class="credits">
                     <div class="credit">
                         <p>Enjoy the low price. We are tracking any intention of piracy.</p>
-                        <p><i class="far fa-copyright"></i> 2020 NEXGEN is Proudly Powered by <span style="color: #058283;">Codings</span>.</p>
+                        <p><i class="far fa-copyright"></i> 2020 NEXGEN is Proudly Powered by <span
+                                style="color: #058283;">Codings</span>.</p>
 
                     </div>
                 </div>

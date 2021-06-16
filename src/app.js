@@ -1,19 +1,17 @@
 let app = new Vue({
     el: "#root",
     data: {
-        /* icon: <i class="far fa-user"></i>, */
         counter: 0,
         about: "",
         transport: "",
         support: "",
+        link: "",
         navbar: [
-            { link: "Home" },
-            { link: "About" },
-            { link: "Services" },
-            { link: "Process" },
-            { link: "Testimonial" },
-            /* { link: this.icon }, */
-            
+            { name: "Home" },
+            { name: "About" },
+            { name: "Services" },
+            { name: "Process" },
+            { name: "Testimonial" },
         ],
         abouts: [
             { name: "The Company" },

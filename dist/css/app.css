@@ -23,7 +23,7 @@ body {
 }
 
 .grey_bar {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   color: #C0C3D0;
   padding: 20px;
@@ -37,68 +37,61 @@ body {
   padding-left: 40px;
 }
 
-.jumbotrone .background_img {
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  filter: grayscale(0.57) brightness(0.9) saturate(2.3) contrast(0.7) sepia(0.14);
-  position: relative;
+.header_test {
+  height: 798px;
 }
-
-.jumbotrone .navbar {
-  width: 78%;
-  position: absolute;
-  z-index: 1;
-  top: 80px;
-  left: 150px;
+.header_test .container_test {
+  width: 75%;
+  margin: 0 auto;
+}
+.header_test .container_test .navbar_test {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
 }
-.jumbotrone .navbar .logo img {
-  width: 50%;
+.header_test .container_test .navbar_test .logo {
+  width: 180px;
 }
-.jumbotrone .navbar .sites a {
+.header_test .container_test .navbar_test a {
   text-decoration: none;
   color: white;
   font-weight: 400;
   padding-right: 20px;
+  text-transform: uppercase;
 }
-.jumbotrone .navbar .btn {
+.header_test .container_test .navbar_test .btn {
   background-color: #058283;
   border-radius: 3px;
   padding: 0.75rem 1rem;
   color: white;
 }
-
-.jumbomain {
-  z-index: 1;
-  position: absolute;
-  top: 300px;
-  left: 150px;
-  width: 40%;
+.header_test .container_test .jumbomain_test {
+  width: 55%;
+  padding-top: 6rem;
 }
-.jumbomain h4 {
+.header_test .container_test .jumbomain_test h4 {
   color: #058283;
   font-size: 1rem;
 }
-.jumbomain h1 {
+.header_test .container_test .jumbomain_test h1 {
   color: white;
   font-size: 4rem;
 }
-.jumbomain p {
+.header_test .container_test .jumbomain_test p {
   color: white;
   font-size: 1.5rem;
   padding-bottom: 3rem;
 }
-.jumbomain .btn {
+.header_test .container_test .jumbomain_test .btn {
   background-color: #058283;
   border-radius: 3px;
   padding: 0.75rem 1rem;
   color: white;
   margin-right: 1rem;
 }
-.jumbomain .btn_outline {
+.header_test .container_test .jumbomain_test .btn_outline {
   border-radius: 3px;
   padding: 0.75rem 1rem;
   color: white;
@@ -107,7 +100,7 @@ body {
 
 .white_section {
   display: flex;
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   padding: 6rem 0rem;
 }
@@ -144,7 +137,7 @@ body {
 }
 .white_section .left_side li {
   color: grey;
-  line-height: 1.5rem;
+  line-height: 1.2rem;
 }
 .white_section .right_side {
   width: 30%;
@@ -167,7 +160,7 @@ body {
   font-size: 1.6rem;
 }
 .white_section .right_side .card .media_text .description {
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: grey;
 }
 .white_section .right_side .card img {
@@ -177,6 +170,7 @@ body {
   border-radius: 5px;
 }
 .white_section .right_side .certifications img {
+  padding-top: 1rem;
   width: 90px;
   margin-right: 20px;
   box-shadow: 10px 10px 13px -10px rgba(92, 92, 92, 0.76);
@@ -188,7 +182,7 @@ body {
   color: white;
 }
 .main_services .wrapper {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
 }
 .main_services h4 {
@@ -258,7 +252,7 @@ footer {
   background-color: #111117;
 }
 footer .background {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   margin-bottom: 12rem;
 }
@@ -280,7 +274,7 @@ footer .background .cards .card:first-child .btn_outline {
   padding: 0.75rem 1rem;
   color: white;
   border: 1px solid #058283;
-  width: 55%;
+  width: 60%;
 }
 footer .background .cards .card:first-child p {
   line-height: 2rem;
@@ -303,7 +297,7 @@ footer .background .card h3 {
 }
 footer .background .card a {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #C0C3D0;
   line-height: 2.2rem;
 }
