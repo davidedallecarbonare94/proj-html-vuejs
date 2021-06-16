@@ -6,6 +6,7 @@
 
 body {
   margin: 0 auto;
+  font-family: "Poppins", sans-serif;
 }
 
 .greybarcontainer {
@@ -208,11 +209,46 @@ body {
   align-items: center;
 }
 .main_services .wrapper_2 p {
-  width: 80%;
+  width: 75%;
+  font-size: 1.2rem;
 }
 .main_services .wrapper_2 .btn_outline {
   border-radius: 5px;
   padding: 0.75rem 1rem;
   color: white;
   border: 2px solid #058283;
+}
+.main_services .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.main_services .cards .card {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  background-color: #19191F;
+  border-radius: 10px;
+  width: calc(95%/3);
+}
+.main_services .cards .card .upper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+.main_services .cards .card .upper i:first-child {
+  color: #058283;
+  background-color: #0E272D;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 2.5rem;
+}
+.main_services .cards .card .upper i:last-child {
+  color: #058283;
+  font-size: 1.5rem;
+}
+.main_services .cards .card .lower h3 {
+  font-size: 1.75rem;
+  padding-bottom: 1.25rem;
 }

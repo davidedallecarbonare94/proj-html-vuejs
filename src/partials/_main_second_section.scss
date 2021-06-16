@@ -23,13 +23,51 @@
         justify-content: space-between;
         align-items: center;
         p{
-            width: 80%;
+            width: 75%;
+            font-size: 1.2rem;
         }
         .btn_outline {
             border-radius: 5px;
         padding: 0.75rem 1rem;
         color: white;
         border: 2px solid $green_button_bcgc;
+        }
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 2rem;
+        
+        .card{
+            display: flex;
+            flex-direction: column;
+            padding: 3rem;
+            background-color: #19191F;
+            border-radius: 10px;
+            width: calc(95%/3);
+            .upper{
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 1rem;
+                i:first-child{
+                    color: $green_button_bcgc;
+                    background-color: #0E272D;
+                    border-radius: 50%;
+                    padding: 10px;
+                    font-size: 2.5rem;
+                }
+                i:last-child{
+                    color: $green_button_bcgc;
+                    font-size: 1.5rem;
+                }
+            }
+            .lower{
+                h3{
+                    font-size: 1.75rem;
+                    padding-bottom: 1.25rem;
+                }
+            }
         }
     }
 }
