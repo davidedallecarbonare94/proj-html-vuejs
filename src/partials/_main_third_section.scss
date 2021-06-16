@@ -1,0 +1,71 @@
+.procedure_section{
+    background-color: #EEF4ED;
+    .first_row{
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .first_row{
+        align-items: center;
+        flex-direction: column;
+        padding-top: 5rem;
+        h4{
+            text-transform: uppercase;
+            color: #1CADAD;
+            padding-bottom: 1rem;
+        }
+        h2{
+            font-size: 2.8rem;
+            .green{
+                background-color: #CCE3DE;
+                color: #058283;
+                padding: 0rem 1rem;
+                border-radius: 10px;
+            }
+        }
+        p{
+            width: 70%;
+            text-align: center;
+            color: #CACFCB;
+            padding: 1rem 0rem;
+        }
+
+    }
+    .second_row{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        .dotted_numbers{
+            background-color: #CCE3DE;
+            color: #058283;
+            border-radius: 50%;
+            font-weight: 600;
+            padding: 0.5rem 0.7rem;
+        }
+        .green_bar{
+            width: 100%;
+            height: 5px;
+            background-color: #CCE3DE;
+        }
+    }
+    .third_row{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1rem 3.15rem 5rem 3.15rem;
+        .section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: calc(50% / 5);
+            p{
+                padding-top: 0.5rem;
+                color:#CACFCB;
+                font-size: 0.75rem;
+            }
+        }
+    }
+
+}
