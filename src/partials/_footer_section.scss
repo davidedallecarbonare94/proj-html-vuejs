@@ -11,7 +11,6 @@ footer {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-
             .card:first-child {
                 color: #C0C3D0;
                 background-color: #111117;
@@ -19,6 +18,7 @@ footer {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
+                
 
                 .btn_outline{
                     border-radius: 3px;
@@ -26,6 +26,7 @@ footer {
                     color: white;
                     border: 1px solid $green_button_bcgc;
                     width: 60%;
+                    transition: all 1s;
                 }
                 p {
                     line-height: 2rem;
@@ -48,6 +49,7 @@ footer {
             background-color: #19191F;
             border-radius: 10px;
             width: calc(95%/4);
+            transition: all 1s;
 
             h3 {
                 padding-bottom: 1rem;
@@ -59,6 +61,7 @@ footer {
                 font-size: 0.90rem;
                 color: #C0C3D0;
                 line-height: 2.2rem;
+                transition: all 1s;
             }
 
         }

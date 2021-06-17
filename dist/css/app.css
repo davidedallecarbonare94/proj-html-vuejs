@@ -222,6 +222,7 @@ body {
   padding: 0.75rem 1rem;
   color: white;
   border: 2px solid #058283;
+  transition: all 1s;
 }
 .main_services .cards {
   display: flex;
@@ -236,6 +237,7 @@ body {
   background-color: #19191F;
   border-radius: 10px;
   width: calc(95%/3);
+  transition: all 1s;
 }
 .main_services .cards .card .upper {
   display: flex;
@@ -252,6 +254,9 @@ body {
 .main_services .cards .card .upper i:last-child {
   color: #058283;
   font-size: 1.5rem;
+  transition: all 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 .main_services .cards .card .lower h3 {
   font-size: 1.75rem;
@@ -286,6 +291,7 @@ footer .background .cards .card:first-child .btn_outline {
   color: white;
   border: 1px solid #058283;
   width: 60%;
+  transition: all 1s;
 }
 footer .background .cards .card:first-child p {
   line-height: 2rem;
@@ -301,6 +307,7 @@ footer .background .card {
   background-color: #19191F;
   border-radius: 10px;
   width: calc(95%/4);
+  transition: all 1s;
 }
 footer .background .card h3 {
   padding-bottom: 1rem;
@@ -311,6 +318,7 @@ footer .background .card a {
   font-size: 0.9rem;
   color: #C0C3D0;
   line-height: 2.2rem;
+  transition: all 1s;
 }
 footer .credits {
   width: 100%;
@@ -370,6 +378,7 @@ footer .credits .credit {
   border-radius: 50%;
   font-weight: 600;
   padding: 0.5rem 0.7rem;
+  transition: all 1.5s;
 }
 .procedure_section .second_row .green_bar {
   width: 100%;
@@ -547,4 +556,34 @@ header .icons i:hover {
 .jumbomain_test .btn_outline:hover {
   background-color: #08a0a0;
   font-weight: 600;
+}
+
+.main_services .btn_outline:hover {
+  background-color: #08a0a0;
+  border: 1px solid #08a0a0;
+}
+.main_services .card:hover {
+  transform: translateY(-5%);
+}
+.main_services .card:hover i.fa-arrow-right:hover {
+  color: white;
+}
+
+.procedure_section .dotted_numbers:hover {
+  background-color: #058283;
+  color: #CCE3DE;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 0.9rem 1.1rem;
+}
+
+footer .background .card:hover:not(:first-child) {
+  transform: translateY(-5%);
+}
+footer .background .card:hover:not(:first-child) a:hover {
+  color: #058283;
+}
+footer .background .btn_outline:hover {
+  background-color: #08a0a0;
+  border: 1px solid #08a0a0;
 }

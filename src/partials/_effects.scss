@@ -35,3 +35,38 @@ header{
         font-weight: 600;
     }
 }
+.main_services{
+    .btn_outline:hover{
+        background-color: #08a0a0;
+        border: 1px solid #08a0a0;
+    }
+    .card:hover{
+        transform: translateY(-5%);
+
+        i.fa-arrow-right:hover{
+           color: white;
+        }
+    }
+}
+.procedure_section{
+    .dotted_numbers:hover{
+        background-color: #058283;
+            color: #CCE3DE;
+            font-size: 1.2rem;
+            font-weight: 800;
+            padding: 0.9rem 1.1rem;
+    }
+}
+footer .background{
+    .card:hover:not(:first-child){
+        transform: translateY(-5%);
+        a:hover{
+            color: #058283;
+        }
+        
+    }
+    .btn_outline:hover{
+        background-color: #08a0a0;
+    border: 1px solid #08a0a0;
+    }
+}
