@@ -9,6 +9,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 .grey_bar{
 
@@ -18,12 +19,21 @@
     padding: 20px;
 }
 .hours{
+    transition: color 1s;
     i{
         padding-right: 6px;
+        
     }
 }
 .contacts{
+    p{
+        transition: color 1s;
+    }
     p i{
         padding-left: 40px;
+        
+        
+
     }
+    
 }

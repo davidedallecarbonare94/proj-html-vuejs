@@ -30,10 +30,16 @@ body {
   padding: 20px;
 }
 
+.hours {
+  transition: color 1s;
+}
 .hours i {
   padding-right: 6px;
 }
 
+.contacts p {
+  transition: color 1s;
+}
 .contacts p i {
   padding-left: 40px;
 }
@@ -505,4 +511,17 @@ footer .credits .credit {
   position: absolute;
   right: 30px;
   bottom: 30px;
+}
+
+header .hours:hover {
+  color: #058283;
+}
+header .number:hover {
+  color: #058283;
+}
+header .mail:hover {
+  color: #058283;
+}
+header .icons i:hover {
+  color: #058283;
 }
