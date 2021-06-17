@@ -67,12 +67,14 @@ body {
   font-weight: 400;
   padding-right: 20px;
   text-transform: uppercase;
+  transition: all 1s;
 }
 .jumbo_test .container_test .navbar_test .btn {
   background-color: #058283;
   border-radius: 3px;
   padding: 0.75rem 1rem;
   color: white;
+  transition: all 0.5s;
 }
 .jumbo_test .container_test .jumbomain_test {
   width: 55%;
@@ -97,12 +99,14 @@ body {
   padding: 0.75rem 1rem;
   color: white;
   margin-right: 1rem;
+  transition: all 1s;
 }
 .jumbo_test .container_test .jumbomain_test .btn_outline {
   border-radius: 3px;
   padding: 0.75rem 1rem;
   color: white;
   border: 1px solid #058283;
+  transition: all 1s;
 }
 
 .white_section {
@@ -524,4 +528,23 @@ header .mail:hover {
 }
 header .icons i:hover {
   color: #058283;
+}
+
+.jumbo_test .navbar_sites a:hover {
+  color: #058283;
+}
+.jumbo_test .navbar_sites .btn:hover {
+  background-color: #08a0a0;
+  padding: 1rem 1.25rem;
+  font-weight: 600;
+}
+
+.jumbomain_test .btn:hover {
+  background-color: #08a0a0;
+  padding: 1rem 1.25rem;
+  font-weight: 600;
+}
+.jumbomain_test .btn_outline:hover {
+  background-color: #08a0a0;
+  font-weight: 600;
 }

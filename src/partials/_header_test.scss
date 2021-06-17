@@ -18,12 +18,14 @@
                 font-weight: 400;
                 padding-right: 20px;
                 text-transform: uppercase;
+                transition: all 1s;
             }
             .btn{
                 background-color: $green_button_bcgc;
                 border-radius: 3px;
                 padding: 0.75rem 1rem;
                 color: white;
+                transition: all 0.5s;
             }
         }
         .jumbomain_test{
@@ -49,12 +51,14 @@
             padding: 0.75rem 1rem;
             color: white;
             margin-right: 1rem;
+            transition: all 1s;
         }
         .btn_outline{
             border-radius: 3px;
             padding: 0.75rem 1rem;
             color: white;
             border: 1px solid $green_button_bcgc;
+            transition: all 1s;
         }
 
     }

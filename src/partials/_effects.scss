@@ -13,3 +13,25 @@ header{
         }
     
 }
+.jumbo_test{
+    .navbar_sites a:hover {
+        color: #058283;
+        
+    }
+    .navbar_sites .btn:hover{
+        background-color: #08a0a0;
+        padding: 1rem 1.25rem;
+        font-weight: 600;
+    }
+}
+.jumbomain_test{
+    .btn:hover{
+        background-color: #08a0a0;
+        padding: 1rem 1.25rem;
+        font-weight: 600;
+    }
+    .btn_outline:hover{
+        background-color: #08a0a0;
+        font-weight: 600;
+    }
+}
