@@ -386,6 +386,7 @@ footer .credits .credit {
 }
 
 .results {
+  height: 508px;
   position: relative;
 }
 .results img {
@@ -408,11 +409,12 @@ footer .credits .credit {
   text-transform: uppercase;
   color: #058283;
   font-size: 1.5rem;
-  padding-bottom: 0.8rem;
+  padding-bottom: 1rem;
 }
 .results .bring_me_there .results_text h2 {
   color: white;
   font-size: 3rem;
+  padding-bottom: 1.5rem;
 }
 .results .bring_me_there .results_text h2 .green {
   background-color: #05838334;
@@ -434,4 +436,73 @@ footer .credits .credit {
 }
 .results .bring_me_there .results_numbers .numbers p:first-of-type {
   color: #058283;
+}
+
+.feedback {
+  background-color: #111117;
+}
+.feedback .upper {
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.feedback .upper h4 {
+  text-transform: uppercase;
+  color: #058283;
+  font-size: 1rem;
+}
+.feedback .upper h2 {
+  color: white;
+  font-size: 3rem;
+  padding-bottom: 1.5rem;
+}
+.feedback .upper h2 .green {
+  background-color: #05838334;
+  padding: 0px 10px;
+  border-radius: 4px;
+}
+.feedback .upper p {
+  color: #C0C3D0;
+  text-align: center;
+}
+.feedback .lower {
+  padding-top: 2rem;
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.feedback .lower .cards {
+  display: flex;
+  flex-direction: row;
+}
+.feedback .lower .cards .card {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.8rem;
+  background-color: #19191F;
+  border-radius: 10px;
+  width: calc(90%/3);
+  margin: auto;
+  position: relative;
+}
+.feedback .lower .cards .card img {
+  width: 100px;
+  filter: invert(1);
+  padding-bottom: 1rem;
+}
+.feedback .lower .cards .card p {
+  color: #C0C3D0;
+  font-size: 0.8rem;
+}
+.feedback .lower .cards .card i {
+  color: #4e4e4e;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
 }
