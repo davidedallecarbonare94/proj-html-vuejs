@@ -57,6 +57,11 @@ header{
             padding: 0.9rem 1.1rem;
     }
 }
+.feedback .lower{
+    .card:hover{
+        transform: translateY(-5%);
+    }
+}
 footer .background{
     .card:hover:not(:first-child){
         transform: translateY(-5%);

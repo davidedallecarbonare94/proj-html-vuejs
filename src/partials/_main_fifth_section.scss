@@ -49,6 +49,7 @@
             width: calc(90%/3);
             margin: auto;
             position: relative;
+            transition: all 1s;
             img{
                 width: 100px;
                 filter: invert(1);
