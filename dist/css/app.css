@@ -7,7 +7,6 @@
 body {
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
-  max-width: 1440px;
 }
 
 .greybarcontainer {
@@ -682,6 +681,7 @@ footer .background .btn_outline:hover {
 .contact_me .example_side .mail,
 .contact_me .example_side .map {
   color: #058283;
+  transition: all 1s;
 }
 .contact_me .example_side .number i,
 .contact_me .example_side .mail i,
